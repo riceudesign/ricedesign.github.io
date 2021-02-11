@@ -476,7 +476,6 @@ figcaption {
   display: -ms-flexbox;
   display: flex;
   height: 620px;
-  margin-bottom: 100px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -713,7 +712,6 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 240px;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -938,7 +936,7 @@ figcaption {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  margin-top: 64px;
+  margin-top: auto;
   padding-top: 0px;
   padding-bottom: 0px;
   -webkit-box-orient: vertical;
@@ -1033,10 +1031,6 @@ figcaption {
   margin-top: 40px;
 }
 
-.home-who-wrap {
-  margin-top: 240px;
-}
-
 .who-subtext-wrap {
   margin-top: 56px;
 }
@@ -1064,7 +1058,6 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 240px;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -1089,10 +1082,6 @@ figcaption {
   background-size: cover;
 }
 
-.home-features-wrap {
-  margin-top: 240px;
-}
-
 .feature-grid {
   margin-top: 64px;
   grid-column-gap: 32px;
@@ -1103,14 +1092,6 @@ figcaption {
 
 .feature-card {
   position: relative;
-  overflow: hidden;
-  height: 0%;
-  padding-top: 50%;
-  padding-bottom: 50%;
-  background-image: url('../images/Icon-1.svg');
-  background-position: 0px 0px;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .image-3 {
@@ -1147,8 +1128,9 @@ figcaption {
 
 .home-page {
   background-image: url('../images/BG-No-Circle_Poly-compressed.png');
-  background-position: 0px 0px;
+  background-position: 50% 0%;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .image-4 {
@@ -1158,6 +1140,10 @@ figcaption {
 .link-block {
   height: 100%;
   min-width: 100%;
+}
+
+.landing-section {
+  padding-bottom: 240px;
 }
 
 .about-landing {
@@ -1276,6 +1262,42 @@ figcaption {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+}
+
+.welcome-section {
+  padding-top: 240px;
+  padding-bottom: 240px;
+}
+
+.mission-section {
+  padding-top: 240px;
+  padding-bottom: 240px;
+}
+
+.who-section {
+  padding-top: 240px;
+  padding-bottom: 240px;
+}
+
+.event-section {
+  display: none;
+  padding-top: 240px;
+  padding-bottom: 240px;
+}
+
+.feature-section {
+  padding-top: 240px;
+  padding-bottom: 240px;
+}
+
+.feature-img {
+  width: 100%;
+}
+
+.feature-card-border {
+  padding: 16px;
+  background-color: #fff;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.32);
 }
 
 @media screen and (max-width: 991px) {
