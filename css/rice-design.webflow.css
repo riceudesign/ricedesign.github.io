@@ -1142,10 +1142,6 @@ figcaption {
   min-width: 100%;
 }
 
-.landing-section {
-  padding-bottom: 240px;
-}
-
 .about-landing {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1265,18 +1261,18 @@ figcaption {
 }
 
 .welcome-section {
-  padding-top: 240px;
-  padding-bottom: 240px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .mission-section {
-  padding-top: 240px;
-  padding-bottom: 240px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .who-section {
-  padding-top: 240px;
-  padding-bottom: 240px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .event-section {
@@ -1286,8 +1282,8 @@ figcaption {
 }
 
 .feature-section {
-  padding-top: 240px;
-  padding-bottom: 240px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .feature-img {
